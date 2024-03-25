@@ -1,0 +1,9 @@
+Q1.Why images are not visible after inserting.
+Image is not visible until we give Height and width of image.
+
+
+Q2.When all images comes into same line.then how to manage it?
+Ans:-
+Flex-wrap:wrap;
+
+then images equally divided and move to second line

@@ -1,0 +1,40 @@
+Q1.Ways to create div and how?Example think image having upper
+ text then below image then their is below content?
+
+Ans:- First div is main div which targets all -->(upper text+image+lower text)
+second div targets -->upper-text.
+third div targets -->image.
+Fourth div targets -->lower text.
+
+
+Ex:-
+<div class="outermost>
+<div class="box-content">
+      <h2>Cloths</h2>
+      <div class="box-img" style="background-image: url('box1_image.jpg');"></div>
+      <p>See More</p>
+      </div>
+
+
+Note:- now if we create multiple boxes like above then it requires outer most div 
+that targets all boxes at the same time.
+
+
+<div class="box-content">
+      <h2>Cloths</h2>
+      <div class="box-img" style="background-image: url('box1_image.jpg');"></div>
+      <p>See More</p>
+      </div>
+
+<div class="box-content">
+      <h2>Cloths</h2>
+      <div class="box-img" style="background-image: url('box1_image.jpg');"></div>
+      <p>See More</p>
+      </div>
+
+<div class="box-content">
+      <h2>Cloths</h2>
+      <div class="box-img" style="background-image: url('box1_image.jpg');"></div>
+      <p>See More</p>
+      </div>
+</div>
